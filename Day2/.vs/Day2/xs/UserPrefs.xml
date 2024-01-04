@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{C76475D1-E849-4AB2-9DAB-0566246834CC}|Default">
+  <MonoDevelop.Ide.ItemProperties.Day2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Day2/Overloading.cs">
+    <Files>
+      <File FileName="Day2/Overloading.cs" Line="22" Column="1" />
+      <File FileName="Day2/Program.cs" Line="4" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day2" expanded="True">
+            <Node name="Day2" expanded="True">
+              <Node name="Overloading.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,15 @@
+/Users/sandipchhetry/Projects/Day2/Day2/bin/Debug/net6.0/Day2
+/Users/sandipchhetry/Projects/Day2/Day2/bin/Debug/net6.0/Day2.deps.json
+/Users/sandipchhetry/Projects/Day2/Day2/bin/Debug/net6.0/Day2.runtimeconfig.json
+/Users/sandipchhetry/Projects/Day2/Day2/bin/Debug/net6.0/Day2.dll
+/Users/sandipchhetry/Projects/Day2/Day2/bin/Debug/net6.0/Day2.pdb
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/Day2.csproj.AssemblyReference.cache
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/Day2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/Day2.AssemblyInfoInputs.cache
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/Day2.AssemblyInfo.cs
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/Day2.csproj.CoreCompileInputs.cache
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/Day2.dll
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/refint/Day2.dll
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/Day2.pdb
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/Day2.genruntimeconfig.cache
+/Users/sandipchhetry/Projects/Day2/Day2/obj/Debug/net6.0/ref/Day2.dll
