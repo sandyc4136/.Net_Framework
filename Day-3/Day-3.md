@@ -28,7 +28,8 @@
 #### Access Modifiers
 - public 
     - accessible any where.
-- protected ( accessible within the same file / project through inheritance. but outside the assembly it is not accessible          (it becomes private)).
+- protected 
+    - accessible within the same file / project through inheritance, but outside the assembly it is not accessible (it becomes private).
 - private ( completely private )
 - internal 
     - assembly level private / i.e. we can access outside of the class , even outside of the file without inheritance but  within a project only.
@@ -55,7 +56,7 @@
     - sealed method can't overridden at further level of inheritance.
 
 #### Abstraction
-    - Data Abstraction (Data Hiding) : by using access modifiers :    
+    - Data Abstraction (Data Hiding) : by using access modifiers :    Data Encapsulation
 
 - Abstract Classes
     - Which are declared using 'abstract' keyword.
@@ -64,4 +65,16 @@
     - We use this to achieve certain level of abstraction in the code.
 
 - Abstract Methods 
-    - 
+    - The methods which are declared using keyword 'abstract'.
+    - If a method is declared as 'abstract' inside the class then that class must be 'abstract'.
+    - abstract method have no body.
+    - its implementation is done in derived classes.
+- if a class inheriting a 'abstract' class then it should give definition to all its abstract method.
+
+#### Interfaces
+- It is a blueprint of the class.
+- If an interface have only one abstract method that interface is know as Functional Interface
+- Implementing an interface
+- Explicitly implementing an interface
+- Inheritance in interfaces
+- Default interface methods 

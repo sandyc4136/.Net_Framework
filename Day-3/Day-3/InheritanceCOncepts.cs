@@ -92,14 +92,41 @@ namespace Abstact
 {
 	public class AbstractDemo
 	{
-		public static void Main2()
+		public static void Main()
+		{
+			AbsInherit a1 = new AbsInherit();
+			a1.AbsMethod();
+			a1.a = 2; // a was declared inside the abstract class but it is being utilized for the object of AbsInherit
+			a1.Meth1();
+		}
+	}
+	abstract public class AbsOne
+	{
+		public int a;
+		static int b;
+		public static void Method()
 		{
 
 		}
-	}
-	public class AbsOne
-	{
 
+		abstract public void AbsMethod();
+        // abstract public void AbsMethod1(); //this too need to be implemented in the derived class
+
+		public void Meth1()
+		{
+            Console.WriteLine( " I am the public method in Abstract class AbsOne");
+        }
+
+}
+	public class AbsInherit : AbsOne
+	{
+		
+        // Class AbsInerit is overriding abstract method AbsMethod of class AbsOne
+        override public void AbsMethod()
+		{
+			Console.WriteLine("I am the Abstract method overridden by AbsInherit");
+		}
 	}
+
 }
 

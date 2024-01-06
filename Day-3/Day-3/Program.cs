@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             StaticCons cl = new StaticCons(); // 
             StaticCons c2 = new StaticCons();
@@ -45,7 +45,8 @@
     {
         public int a;
         public int b;
-
+        protected internal int d; // accessible with base and child both class object in child class.
+        // protected  int d; // inaccessible in child class with base class object , we need to call using child class object only. 
         public StaticCons()
         {
             Console.WriteLine("I am the default Cons");
@@ -59,7 +60,7 @@
         }
         public void Display()
         {
-            Console.WriteLine("a = " + a + " and b = " + b);
+            Console.WriteLine("a = " + a + " and b = " + b + " d = " + d);
         }
     }
 }
