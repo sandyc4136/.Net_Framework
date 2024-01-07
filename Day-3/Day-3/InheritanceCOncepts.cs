@@ -92,7 +92,7 @@ namespace Abstact
 {
 	public class AbstractDemo
 	{
-		public static void Main()
+		public static void Main3()
 		{
 			AbsInherit a1 = new AbsInherit();
 			a1.AbsMethod();

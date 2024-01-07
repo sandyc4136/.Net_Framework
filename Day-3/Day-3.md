@@ -73,8 +73,10 @@
 
 #### Interfaces
 - It is a blueprint of the class.
-- If an interface have only one abstract method that interface is know as Functional Interface
+- If an interface have only one abstract method that interface is known as Functional Interface.
 - Implementing an interface
 - Explicitly implementing an interface
 - Inheritance in interfaces
 - Default interface methods 
+
+
