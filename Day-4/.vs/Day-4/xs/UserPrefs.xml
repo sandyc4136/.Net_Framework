@@ -1,27 +1,28 @@
 ﻿<Properties StartupConfiguration="{789CD508-8B88-464E-9F7F-146DEB6CEF9E}|Default">
-  <MonoDevelop.Ide.ItemProperties.Day-4 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Day-4/GenericAndCollection.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Day-4/GenericConstraints.cs">
     <Files>
-      <File FileName="Day-4/Program.cs" Line="41" Column="27" />
-      <File FileName="Day-4/Struct.cs" Line="36" Column="10" />
-      <File FileName="Day-4/GenericAndCollection.cs" Line="6" Column="3" />
+      <File FileName="Day-4/GenericAndCollection.cs" Line="188" Column="35" />
+      <File FileName="Day-4/GenericTestProgram.cs" Line="47" Column="45" />
+      <File FileName="Day-4/GenericMethod.cs" Line="14" Column="23" />
+      <File FileName="Day-4/GenericConstraints.cs" Line="41" Column="78" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Day-4" expanded="True">
+          <Node name="Day-4">
             <Node name="Day-4">
-              <Node name="GenericAndCollection.cs" selected="True" />
+              <Node name="GenericConstraints.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Day-4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
 </Properties>

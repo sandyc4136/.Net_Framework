@@ -175,7 +175,7 @@ namespace Day_4
            //  List<int> intlist = new List<int>();
 
         }
-        public static void Main()
+        public static void Main8()
         {
             Manager m1 = new Manager();
 
