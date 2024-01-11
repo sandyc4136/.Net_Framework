@@ -1,0 +1,92 @@
+@*@page
+    @model Day_7.Views.Guests.CreateModel
+
+
+    @{
+        ViewData["Title"] = "Create";
+    }
+
+    <h1>Create</h1>
+
+    <h4>Guest</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Guest.Name" class="control-label"></label>
+                    <input asp-for="Guest.Name" class="form-control" />
+                    <span asp-validation-for="Guest.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Guest.Address" class="control-label"></label>
+                    <input asp-for="Guest.Address" class="form-control" />
+                    <span asp-validation-for="Guest.Address" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Guest.Email" class="control-label"></label>
+                    <input asp-for="Guest.Email" class="form-control" />
+                    <span asp-validation-for="Guest.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Guest.Phone" class="control-label"></label>
+                    <input asp-for="Guest.Phone" class="form-control" />
+                    <span asp-validation-for="Guest.Phone" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-page="Index">Back to List</a>
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }*@
+
+@model Day_7.Models.Guests;
+@{
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width-device-width" />
+    <title>Guest Entry Form </title>
+</head>
+<body>
+    <div>
+        <form asp-action="Create" method="post">
+
+            <div>
+                <label asp-for="Name"></label>
+                <input asp-for="Name" />
+                <span asp-validation-for="Name"></span>
+            </div> <br/>
+            <div>
+                <label asp-for="Address"></label>
+                <input asp-for="Address" />
+                <span asp-validation-for="Address"></span>
+            </div><br />
+            <div>
+                <label asp-for="Email"></label>
+                <input asp-for="Email" />
+                <span asp-validation-for="Email"></span>
+            </div><br />
+            <div>
+                <label asp-for="Phone"></label>
+                <input asp-for="Phone" />
+                <span asp-validation-for="Phone"></span>
+            </div><br />
+            <div>
+                <button type="submit" class="btn btn-primary">Save Record</button>
+            </div><br />
+        </form>
+    </div>
+</body>
+</html>

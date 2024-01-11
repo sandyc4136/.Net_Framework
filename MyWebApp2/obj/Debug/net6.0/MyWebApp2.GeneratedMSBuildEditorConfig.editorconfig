@@ -16,6 +16,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/sandipchhetry/Documents/CDAC/DotNet_Project/Projects/MyWebApp2
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/sandipchhetry/Documents/CDAC/DotNet_Project/Projects/MyWebApp2/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sandipchhetry/Documents/CDAC/DotNet_Project/Projects/MyWebApp2/Views/Depts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVwdHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sandipchhetry/Documents/CDAC/DotNet_Project/Projects/MyWebApp2/Views/Guests/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3Vlc3RzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sandipchhetry/Documents/CDAC/DotNet_Project/Projects/MyWebApp2/Views/Guests/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3Vlc3RzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sandipchhetry/Documents/CDAC/DotNet_Project/Projects/MyWebApp2/Views/Guests/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3Vlc3RzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sandipchhetry/Documents/CDAC/DotNet_Project/Projects/MyWebApp2/Views/Guests/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3Vlc3RzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sandipchhetry/Documents/CDAC/DotNet_Project/Projects/MyWebApp2/Views/Guests/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3Vlc3RzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/sandipchhetry/Documents/CDAC/DotNet_Project/Projects/MyWebApp2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

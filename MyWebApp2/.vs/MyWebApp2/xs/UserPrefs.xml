@@ -1,21 +1,27 @@
 ﻿<Properties StartupConfiguration="{61290B13-583A-4F9E-B943-2732FFCE6BBB}|Default">
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/MyDbContext.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyWebApp2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
     <Files>
       <File FileName="appsettings.json" Line="14" Column="1" />
-      <File FileName="Data/MyDbContext.cs" Line="16" Column="1" />
-      <File FileName="Program.cs" Line="19" Column="61" />
+      <File FileName="Models/Guest.cs" Line="3" Column="1" />
+      <File FileName="Data/MyDbContext.cs" Line="9" Column="56" />
+      <File FileName="Program.cs" Line="16" Column="35" />
+      <File FileName="Controllers/DeptsController.cs" Line="31" Column="27" />
+      <File FileName="Controllers/GuestsController.cs" Line="26" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MyWebApp2" expanded="True">
+          <Node name="MyWebApp2">
             <Node name="MyWebApp2">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="MyDbContext.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
@@ -23,7 +29,6 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.MyWebApp2 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

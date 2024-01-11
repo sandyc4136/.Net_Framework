@@ -1,0 +1,40 @@
+@page
+@model Day_7.Views.Demo.DemoRazorModel
+@{
+    // ViewData["Title"] = "DemoRazor";
+    //Layout = "~etc/my.cshtml";
+
+    // single entity can be reresented in .cshtml file using @
+    // multiple lines of C# can be represented using @{}
+
+    var myname = " Sandip chhetry ";
+}
+
+@*<h1>DemoRazor</h1>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}*@
+
+<h1>
+    Welcome to my custom page
+</h1>
+<p>
+    @for (int i = 0; i < 5; i++)
+    {
+        @myname
+    }
+
+    @DateTime.Now;
+
+    @*@ViewBag.Name;*@
+<p>
+    Name: @ViewBag.Name; <br />
+    Message: @ViewBag.Message;<br />
+    Desc : @ViewBag.Desc;<br />
+    City: @ViewBag.Address.City;<br />
+    <button>
+        <a asp-controller="Demo" asp-action="ShowDetails"> Show Details</a>
+    </button>
+</p>
+</p>

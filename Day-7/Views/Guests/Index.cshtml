@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{}
+
+@model IEnumerable<Day_7.Models.Guests>
+@{
+    ViewData["Title"] = "Index";
+
+}
+<h1> Guests List</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+        </tr>
+    </thead>
+    @foreach (var guests in Model)
+    {
+        <tr>
+            <th scope="row">@guests.Id</th>
+            <th scope="row">@guests.Name</th>
+            <th scope="row">@guests.Address</th>
+            <th scope="row">@guests.Email</th>
+            <th scope="row">@guests.Phone</th>
+        </tr>
+    }
+</table>
+

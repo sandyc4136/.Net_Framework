@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using MyWebApp2.Models;
 
 namespace MyWebApp2.Data
 {
@@ -9,7 +10,15 @@ namespace MyWebApp2.Data
 		{
 
 		}
-		// public DbSet<Student> Students { get; set; }
+
+		// List of Tables to be operated by DbContext
+		public DbSet<Employee> Employees{ get; set; }
+		public DbSet<Dept> Depts { get; set; }
+        public DbSet<Guest> Guests { get; set; }
+
+        // Join-Table Queries DTO are also registered here
+
+        // ModelBuilder: 
     }
 }
 
